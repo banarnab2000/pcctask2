@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkslategray;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container h1 {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 0.3em 0.3em;
+    border: 20px solid;
+    font-size: 90px;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container h2 {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 0.1em 0.1em;
+    border: 10px solid;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: baseline;
+    justify-content: baseline;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
